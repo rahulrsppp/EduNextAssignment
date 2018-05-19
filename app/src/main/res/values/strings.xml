@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EduNextAssignment</string>
+    <string name="edunext_assignment">EduNext Assignment</string>
+    <string name="school_code">School Code:</string>
+    <string name="url">Url:</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="menu">Menu</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="error_occurred">An Error Occurred</string>
+    <string name="no_data_to_display">No Data To Display</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/dp_4">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_school_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_school"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:src="@color/colorPrimaryDark"
+            android:padding="@dimen/dp_8"
+            android:contentDescription="@string/app_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_school_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_school_image"
+
+        android:layout_margin="@dimen/dp_6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_school_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/colorPrimaryDark"
+            android:text="@string/school_code"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_school_code_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_school_code"
+        android:layout_margin="@dimen/dp_6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_school_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/colorPrimaryDark"
+            android:text="@string/url"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_school_url_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@color/colorPrimaryDark"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
